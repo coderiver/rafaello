@@ -6,7 +6,8 @@
 html, body 
 	height: 100%
 body
-	font-family: Cambria, Colibri, Arial, Tahoma, sans-serif
+	min-width: 990px
+	font-family: Trebuchet-MS, Arial, Tahoma, sans-serif
 	font-weight: normal 
 	font-size: 14px
 	line-height: 1.2
@@ -27,7 +28,7 @@ li
 textarea, button, select, input
 	border: none
 	outline: none
-	font-family: Cambria, Colibri, Arial, Tahoma, sans-serif
+	font-family: Trebuchet-MS, Arial, Tahoma, sans-serif
 button 
 	line-height: 1
 	cursor: pointer
@@ -38,20 +39,102 @@ table
 	border-spacing: 0
 	border-collapse: collapse
 // common styles
-.wrap
+.l-wrapper
 	min-height: 100%
 	height: auto !important
 	height: 100%
-	margin: 0 auto -225px
-.wrap__in
+	margin: 0 auto -101px
+	background: url(../img/bg.jpg) 0 0 no-repeat
+	background-size: cover
+.wrapper
 	position: relative
-	width: 1175px
-	margin: 0 auto
-	background: #FFF 
+	width: 990px
+	margin: 0 auto 20px
 	z-index: 10 
 .push
-	height: 225px
+	height: 101px
 	clear: both
+.h1
+	text-align: center
+	font: normal 45px MonotypeCorsiva, 'Times New Roman', serif
+	color: #e10000	
 //header
 .header
+	padding: 0 25px
+	+clr
+.logo
+	float: left
+	width: 340px
+	margin-top: 16px
+	a
+		display: block
+		+s(logo)	
+.menu
+	float: left
+	+clr
+	margin-top: 60px
+	li
+		display: inline-block
+		max-width: 124px
+		min-width: 82px
+		text-align: center
+		vertical-align: top
+		+box
+		a
+			text-decoration: underline
+			text-transform: uppercase
+			color: #bc8d03
+			font: 14px Arial, sans-serif
+.container
+	padding: 10px 25px 0				
 
+// footer
+.l-footer
+	position: relative
+	height: 90px
+	background: #fff
+.footer-top
+	position: absolute
+	top: -11px
+	height: 11px
+	width: 100%
+	background: url(../img/footer-border.png) 0 0 repeat-x
+.footer
+	max-width: 990px
+	margin: 0 auto
+	+clr
+	+box
+	padding-top: 40px
+.copyrights
+	float: left
+	color: #69689c
+	margin-right: 10px
+.footer__links
+	float: left
+	li
+		display: inline-block
+		margin-right: 10px
+		a
+			color: #c39a1f
+			text-decoration: underline
+.footer__socials
+	position: relative
+	top: -3px
+	float: left
+	color: #69689c
+	span
+		position: relative
+		top: -11px
+	ul
+		display: inline-block
+		li
+			display: inline-block
+.vk
+	display: block
+	+s(vk)
+.f
+	display: block
+	+s(f)
+.od
+	display: block
+	+s(od)								

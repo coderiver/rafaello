@@ -1,2 +1,77 @@
 @import "base"
-//styles for main page(class with prefix "m-")
+//styles for main page
+.banner
+	position: relative
+	padding: 30px 60px 44px
+	text-align: center
+	font-family: Trebuchet-MS-Italic, sans-serif
+	font-style: italic 
+	font-size: 19px
+	color: #505051
+.banner__link
+	position: absolute
+	bottom: 20px
+	right: 29px
+	color: #e10000
+	font-size: 19px
+	font-family: Trebuchet-MS-Italic, sans-serif
+	font-style: italic  
+	text-decoration: underline
+	&:after
+		content: ""
+		position: absolute
+		top: 6px
+		right: -26px
+		+s(arrow-r) 	
+.check
+	+clr
+	height: 125px
+	padding-left: 125px 
+	+box
+	overflow: hidden
+	+box-shadow(0px -25px 36px -29px #cccccc, 0px 25px 36px -29px #cccccc)
+.check__img
+	float: left
+.check__text
+	float: left
+	width: 160px
+	text-align: center
+	padding: 30px 0 
+	font-size: 19px
+	color: #505051
+.check__button
+	float: left
+	margin: 27px
+	a
+		display: block
+		width: 396px
+		height: 71px
+		padding-top: 12px
+		text-align: center 
+		font: italic 32px Calibri, sans-serif
+		color: #e50000
+		+box
+		background: url(../img/check-btn.png) 0 0 no-repeat
+.prize-list
+	margin-top: 39px
+	+clr
+	background: url(../img/clouds.png) 0% 100% no-repeat 
+.prize
+	float: left
+	width: 33%
+	+box
+	text-align: center
+.prize__title
+	padding-bottom: 20px
+	font-size: 24px 
+	font-family: Trebuchet-MS-Italic, sans-serif
+	font-style: italic
+	color: #4f4f4f
+.prize__img
+	min-height: 145px
+	overflow: hidden
+.prize__text
+	padding: 0 70px
+	font-size: 19px
+	color: #666
+		 		
