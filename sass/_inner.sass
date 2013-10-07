@@ -5,6 +5,7 @@
 	text-align: center
 .l-content
 	+clr
+.l-content_b
 	+box-shadow(0px -25px 36px -29px #cccccc)
 	padding-top: 38px
 .sidebar
@@ -17,7 +18,7 @@
 	li
 		margin-bottom: 18px
 		a
-			font: 14px Arial, sans-serif
+			font: 20px Calibri, sans-serif
 			text-decoration: underline
 			color: #bc8d03
 			&:hover
@@ -27,17 +28,42 @@
 		a.current
 			color: #cc0000
 			text-decoration: none
+	.feedback
+		position: relative
+		display: inline-block
+		padding-left: 62px
+		font-size: 18px
+		color: #40688e
+		text-decoration: none
+		&:before
+			content: ""
+			position: absolute
+			top: 5px
+			left: 0px
+			+s(letter)
+		&:hover
+			text-decoration: underline
+			color: #40688e
+		&:active
+			color: #003366	 				
 .postcard
 	position: relative
 	padding: 53px 60px
 	&:after
 		content: ""
 		position: absolute
-		top: -2px
-		left: -11px
+		top: 2px
+		left: -19px
 		+s(border)
 .postcard__buttons
 	padding: 20px 0 20px 132px
 	button
-		margin-right: 60px		
+		margin-right: 60px
+.rules
+	width: 654px
+	margin-left: 66px
+	font: 24px Calibri, sans-serif
+	color: #40688e
+	p
+		margin-bottom: 33px				
 									
