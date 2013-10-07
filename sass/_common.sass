@@ -56,8 +56,23 @@ table
 	clear: both
 .h1
 	text-align: center
-	font: normal 45px MonotypeCorsiva, 'Times New Roman', serif
-	color: #e10000	
+	font: italic 36px Trebuchet-MS-Italic, Arial, Tahoma, sans-serif
+	color: #e10000
+.btn
+	width: 166px
+	height: 40px 
+	@include border-radius(6px)
+	background: url(../img/btn.png) 0 0 no-repeat
+	@include box-shadow(1px 2px 3px rgba(1,1,1,.06))
+	font: italic 15px Trebuchet-MS-Italic, Arial, Tahoma, sans-serif
+	color: #e10000
+	&:hover
+		background: url(../img/btn-hover.png) 0 0 no-repeat
+	&:active
+		background: url(../img/btn-active.png) 0 0 no-repeat	
+.btn_inactive
+	background: url(../img/btn-inactive.png) 0 0 no-repeat
+	color: #f3a9a9
 //header
 .header
 	padding: 0 25px
@@ -85,13 +100,39 @@ table
 			text-transform: uppercase
 			color: #bc8d03
 			font: 14px Arial, sans-serif
+			&:hover
+				color: #937109
+			&:active
+				color: #663300
+				text-decoration: none
+		a.current
+			color: #937109
+			text-decoration: none
+		a.profile-link
+			display: inline-block
+			width: 55px
+			text-align: right
+			text-decoration: none
+			text-transform: none
+			&:hover
+				text-decoration: underline
+			p
+				font-size: 12px
+.avatar
+	display: inline-block
+	width: 35px
+	height: 33px
+	margin-bottom: 5px
+	overflow: hidden
+	+box
+	border: 1px solid #dcdede 						
 .container
 	padding: 10px 25px 0				
 
 // footer
 .l-footer
 	position: relative
-	height: 90px
+	height: 101px
 	background: #fff
 .footer-top
 	position: absolute
@@ -100,7 +141,7 @@ table
 	width: 100%
 	background: url(../img/footer-border.png) 0 0 repeat-x
 .footer
-	max-width: 990px
+	max-width: 1025px
 	margin: 0 auto
 	+clr
 	+box
@@ -119,12 +160,12 @@ table
 			text-decoration: underline
 .footer__socials
 	position: relative
-	top: -3px
+	top: -9px
 	float: left
 	color: #69689c
 	span
 		position: relative
-		top: -11px
+		top: -13px
 	ul
 		display: inline-block
 		li
@@ -132,9 +173,21 @@ table
 .vk
 	display: block
 	+s(vk)
+	&:hover
+		+s(vk-hover)
+	&:active
+		+s(vk-active)
 .f
 	display: block
 	+s(f)
+	&:hover
+		+s(f-hover)
+	&:active
+		+s(f-active)	
 .od
 	display: block
-	+s(od)								
+	+s(od)
+	&:hover
+		+s(od-hover)
+	&:active
+		+s(od-active)							

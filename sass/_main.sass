@@ -17,6 +17,8 @@
 	font-family: Trebuchet-MS-Italic, sans-serif
 	font-style: italic  
 	text-decoration: underline
+	&:active
+		color: #990000
 	&:after
 		content: ""
 		position: absolute
@@ -26,37 +28,45 @@
 .check
 	+clr
 	height: 125px
-	padding-left: 125px 
+	padding-left: 65px 
 	+box
-	overflow: hidden
 	+box-shadow(0px -25px 36px -29px #cccccc, 0px 25px 36px -29px #cccccc)
+	@include background-image(linear-gradient(top, #eff1f4 0%, #f7f9fa 100%))
 .check__img
+	position: relative
+	top: -34px
 	float: left
 .check__text
 	float: left
 	width: 160px
 	text-align: center
-	padding: 30px 0 
-	font-size: 19px
+	padding: 23px 35px 
+	font-size: 28px
 	color: #505051
+	span
+		font-size: 37px
 .check__button
-	float: left
-	margin: 27px
-	a
-		display: block
-		width: 396px
-		height: 71px
-		padding-top: 12px
-		text-align: center 
-		font: italic 32px Calibri, sans-serif
-		color: #e50000
-		+box
-		background: url(../img/check-btn.png) 0 0 no-repeat
+	float: right
+	margin-top: 18px
+.reg-check
+	display: inline-block
+	width: 431px
+	height: 88px
+	padding-top: 22px
+	text-align: center 
+	font: italic 32px Calibri, sans-serif
+	color: #e50000
+	+box
+	background: url(../img/check-btn.png) 0 0 no-repeat
+	&:hover
+		background: url(../img/check-btn-hover.png) 0 0 no-repeat
+	&:active
+		background: url(../img/check-btn-active.png) 0 0 no-repeat	
 .prize-list
 	margin-top: 39px
-	+clr
-	background: url(../img/clouds.png) 0% 100% no-repeat 
+	+clr 
 .prize
+	position: relative
 	float: left
 	width: 33%
 	+box
@@ -70,8 +80,24 @@
 .prize__img
 	min-height: 145px
 	overflow: hidden
+	z-index: 1
 .prize__text
+	position: relative
 	padding: 0 70px
 	font-size: 19px
-	color: #666
+	color: #bc8d03
+	z-index: 3
+.prize__clouds, .prize__clouds2, .prize__clouds3
+	position: absolute
+	bottom: 0
+	left: 0
+	z-index: 2
+.prize__clouds2
+	bottom: -30px
+	right: 0px
+	left: auto
+.prize__clouds3
+	bottom: 60px
+	right: 0px
+	left: auto	
 		 		
