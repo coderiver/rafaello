@@ -2,7 +2,7 @@
 //styles for main page
 .banner
 	position: relative
-	padding: 30px 60px 44px
+	padding: 20px 60px 56px
 	text-align: center
 	font-family: Trebuchet-MS-Italic, sans-serif
 	font-style: italic 
@@ -10,13 +10,15 @@
 	color: #505051
 .banner__link
 	position: absolute
-	bottom: 20px
+	bottom: 32px
 	right: 29px
 	color: #e10000
 	font-size: 19px
 	font-family: Trebuchet-MS-Italic, sans-serif
 	font-style: italic  
 	text-decoration: underline
+	&:hover
+		text-decoration: none
 	&:active
 		color: #990000
 	&:after
@@ -31,7 +33,6 @@
 	padding-left: 65px 
 	+box
 	+box-shadow(0px -25px 36px -29px #cccccc, 0px 25px 36px -29px #cccccc)
-	@include background-image(linear-gradient(top, #eff1f4 0%, #f7f9fa 100%))
 .check__img
 	position: relative
 	top: -34px
@@ -89,15 +90,29 @@
 	z-index: 3
 .prize__clouds, .prize__clouds2, .prize__clouds3
 	position: absolute
-	bottom: 0
+	bottom: -10px
 	left: 0
 	z-index: 2
 .prize__clouds2
-	bottom: -30px
+	bottom: -49px
 	right: 0px
 	left: auto
 .prize__clouds3
-	bottom: 60px
-	right: 0px
-	left: auto	
-		 		
+	bottom: 8px
+	right: 13px
+	left: auto
+.prize1
+	.prize__img
+		min-height: 114px
+	.prize__title
+		padding-bottom: 31px
+.prize2
+	.prize__img
+		min-height: 127px
+.prize3
+	.prize__img
+		min-height: 135px
+	.prize__title
+		padding-bottom: 10px
+	.prize__text								
+		padding: 0 62px	 		

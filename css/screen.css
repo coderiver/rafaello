@@ -55,25 +55,26 @@ table { border-spacing: 0; border-collapse: collapse; }
 .header:after { clear: both; }
 
 .logo { float: left; width: 340px; margin-top: 16px; }
-.logo a { display: block; background: url('../img/icons-s8eca9ef55a.png') 0 0 no-repeat; width: 340px; height: 116px; }
+.logo a { display: block; background: url('../img/icons-sab2538c200.png') 0 0 no-repeat; width: 340px; height: 116px; }
 
 .menu { float: left; width: 298px; margin-top: 60px; }
 .menu:before, .menu:after { content: ""; display: table; }
 .menu:after { clear: both; }
-.menu li { display: inline-block; max-width: 124px; min-width: 82px; text-align: center; vertical-align: top; -moz-box-sizing: border-box; box-sizing: border-box; }
+.menu li { float: left; width: 33%; text-align: center; vertical-align: top; -moz-box-sizing: border-box; box-sizing: border-box; }
 .menu li a { text-decoration: underline; text-transform: uppercase; color: #bc8d03; font: 14px Arial, sans-serif; }
-.menu li a:hover { color: #937109; }
+.menu li a:hover { text-decoration: none; }
 .menu li a:active { color: #663300; text-decoration: none; }
-.menu li a.current { color: #937109; text-decoration: none; }
+.menu li a.current { color: #e10000; text-decoration: none; }
 .menu li a.profile-link { display: inline-block; width: 55px; text-align: right; text-decoration: none; text-transform: none; }
 .menu li a.profile-link:hover { text-decoration: underline; }
 .menu li a.profile-link p { font-size: 12px; }
 
 .menu_right { text-align: right; }
+.menu_right li { width: auto; max-width: 124px; margin-right: 13px; }
 
 .avatar { display: inline-block; width: 35px; height: 33px; margin-bottom: 5px; overflow: hidden; -moz-box-sizing: border-box; box-sizing: border-box; border: 1px solid #dcdede; }
 
-.container { padding: 10px 25px 0; }
+.container { padding: 25px 25px 0; }
 
 .l-footer { position: relative; height: 101px; background: white; }
 
@@ -88,29 +89,24 @@ table { border-spacing: 0; border-collapse: collapse; }
 .footer__links { float: left; }
 .footer__links li { display: inline-block; margin-right: 10px; }
 .footer__links li a { color: #c39a1f; text-decoration: underline; }
+.footer__links li a:hover { text-decoration: none; }
 
-.footer__socials { position: relative; top: -9px; float: left; color: #69689c; }
-.footer__socials span { position: relative; top: -13px; }
+.footer__socials { position: relative; top: -5px; float: left; color: #69689c; }
+.footer__socials span { position: relative; top: -7px; }
 .footer__socials ul { display: inline-block; }
 .footer__socials ul li { display: inline-block; }
 
-.vk { display: block; background: url('../img/icons-s8eca9ef55a.png') 0 -923px no-repeat; width: 36px; height: 36px; }
-.vk:hover { background: url('../img/icons-s8eca9ef55a.png') 0 -831px no-repeat; width: 36px; height: 36px; }
-.vk:active { background: url('../img/icons-s8eca9ef55a.png') 0 -877px no-repeat; width: 36px; height: 36px; }
+.vk { display: block; background: url('../img/icons-sab2538c200.png') 0 -798px no-repeat; width: 25px; height: 25px; }
+.vk:hover { background: url('../img/icons-sab2538c200.png') 0 -833px no-repeat; width: 25px; height: 25px; }
+.vk:active { background: url('../img/icons-sab2538c200.png') 0 -868px no-repeat; width: 25px; height: 25px; }
 
-.f { display: block; background: url('../img/icons-s8eca9ef55a.png') 0 -1015px no-repeat; width: 36px; height: 36px; }
-.f:hover { background: url('../img/icons-s8eca9ef55a.png') 0 -1061px no-repeat; width: 36px; height: 36px; }
-.f:active { background: url('../img/icons-s8eca9ef55a.png') 0 -969px no-repeat; width: 36px; height: 36px; }
+.f { display: block; background: url('../img/icons-sab2538c200.png') 0 -903px no-repeat; width: 25px; height: 25px; }
+.f:hover { background: url('../img/icons-sab2538c200.png') 0 -938px no-repeat; width: 25px; height: 25px; }
+.f:active { background: url('../img/icons-sab2538c200.png') 0 -973px no-repeat; width: 25px; height: 25px; }
 
-.od { display: block; background: url('../img/icons-s8eca9ef55a.png') 0 -785px no-repeat; width: 36px; height: 36px; }
-.od:hover { background: url('../img/icons-s8eca9ef55a.png') 0 -739px no-repeat; width: 36px; height: 36px; }
-.od:active { background: url('../img/icons-s8eca9ef55a.png') 0 -693px no-repeat; width: 36px; height: 36px; }
-
-@font-face { font-family: "Trebuchet-MS"; src: url("../fonts/Trebuchet-MS-Regular_.eot"); src: url("../fonts/Trebuchet-MS-Regular_.eot?#iefix") format("embedded-opentype"), url("../fonts/Trebuchet-MS-Regular_.woff") format("woff"), url("../fonts/Trebuchet-MS-Regular_.ttf") format("truetype"), url("../fonts/Trebuchet-MS-Regular_.svg#Trebuchet-MS-Regular_") format("svg"); font-weight: normal; font-style: normal; }
-
-@font-face { font-family: "Trebuchet-MS-Italic"; src: url("../fonts/Trebuchet-MS-Italic.eot"); src: url("../fonts/Trebuchet-MS-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Trebuchet-MS-Italic.woff") format("woff"), url("../fonts/Trebuchet-MS-Italic.ttf") format("truetype"), url("../fonts/Trebuchet-MS-Italic.svg#Trebuchet-MS-Italic") format("svg"); font-weight: normal; font-style: italic; }
-
-@font-face { font-family: "MonotypeCorsiva"; src: url("../fonts/monotype_corsiva.eot"); src: url("../fonts/monotype_corsiva.eot") format("embedded-opentype"), url("../fonts/monotype_corsiva.woff") format("woff"), url("../fonts/monotype_corsiva.ttf") format("truetype"), url("../fonts/monotype_corsiva.svg#MonotypeCorsivaRegular") format("svg"); }
+.od { display: block; background: url('../img/icons-sab2538c200.png') 0 -728px no-repeat; width: 25px; height: 25px; }
+.od:hover { background: url('../img/icons-sab2538c200.png') 0 -763px no-repeat; width: 25px; height: 25px; }
+.od:active { background: url('../img/icons-sab2538c200.png') 0 -693px no-repeat; width: 25px; height: 25px; }
 
 @font-face { font-family: "Trebuchet-MS"; src: url("../fonts/Trebuchet-MS-Regular_.eot"); src: url("../fonts/Trebuchet-MS-Regular_.eot?#iefix") format("embedded-opentype"), url("../fonts/Trebuchet-MS-Regular_.woff") format("woff"), url("../fonts/Trebuchet-MS-Regular_.ttf") format("truetype"), url("../fonts/Trebuchet-MS-Regular_.svg#Trebuchet-MS-Regular_") format("svg"); font-weight: normal; font-style: normal; }
 
@@ -118,13 +114,20 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 @font-face { font-family: "MonotypeCorsiva"; src: url("../fonts/monotype_corsiva.eot"); src: url("../fonts/monotype_corsiva.eot") format("embedded-opentype"), url("../fonts/monotype_corsiva.woff") format("woff"), url("../fonts/monotype_corsiva.ttf") format("truetype"), url("../fonts/monotype_corsiva.svg#MonotypeCorsivaRegular") format("svg"); }
 
-.banner { position: relative; padding: 30px 60px 44px; text-align: center; font-family: Trebuchet-MS-Italic, sans-serif; font-style: italic; font-size: 19px; color: #505051; }
+@font-face { font-family: "Trebuchet-MS"; src: url("../fonts/Trebuchet-MS-Regular_.eot"); src: url("../fonts/Trebuchet-MS-Regular_.eot?#iefix") format("embedded-opentype"), url("../fonts/Trebuchet-MS-Regular_.woff") format("woff"), url("../fonts/Trebuchet-MS-Regular_.ttf") format("truetype"), url("../fonts/Trebuchet-MS-Regular_.svg#Trebuchet-MS-Regular_") format("svg"); font-weight: normal; font-style: normal; }
 
-.banner__link { position: absolute; bottom: 20px; right: 29px; color: #e10000; font-size: 19px; font-family: Trebuchet-MS-Italic, sans-serif; font-style: italic; text-decoration: underline; }
+@font-face { font-family: "Trebuchet-MS-Italic"; src: url("../fonts/Trebuchet-MS-Italic.eot"); src: url("../fonts/Trebuchet-MS-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Trebuchet-MS-Italic.woff") format("woff"), url("../fonts/Trebuchet-MS-Italic.ttf") format("truetype"), url("../fonts/Trebuchet-MS-Italic.svg#Trebuchet-MS-Italic") format("svg"); font-weight: normal; font-style: italic; }
+
+@font-face { font-family: "MonotypeCorsiva"; src: url("../fonts/monotype_corsiva.eot"); src: url("../fonts/monotype_corsiva.eot") format("embedded-opentype"), url("../fonts/monotype_corsiva.woff") format("woff"), url("../fonts/monotype_corsiva.ttf") format("truetype"), url("../fonts/monotype_corsiva.svg#MonotypeCorsivaRegular") format("svg"); }
+
+.banner { position: relative; padding: 20px 60px 56px; text-align: center; font-family: Trebuchet-MS-Italic, sans-serif; font-style: italic; font-size: 19px; color: #505051; }
+
+.banner__link { position: absolute; bottom: 32px; right: 29px; color: #e10000; font-size: 19px; font-family: Trebuchet-MS-Italic, sans-serif; font-style: italic; text-decoration: underline; }
+.banner__link:hover { text-decoration: none; }
 .banner__link:active { color: #990000; }
-.banner__link:after { content: ""; position: absolute; top: 6px; right: -26px; background: url('../img/icons-s8eca9ef55a.png') 0 -1193px no-repeat; width: 20px; height: 12px; }
+.banner__link:after { content: ""; position: absolute; top: 6px; right: -26px; background: url('../img/icons-sab2538c200.png') 0 -1094px no-repeat; width: 20px; height: 12px; }
 
-.check { height: 125px; padding-left: 65px; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-box-shadow: 0px -25px 36px -29px #cccccc, 0px 25px 36px -29px #cccccc; -moz-box-shadow: 0px -25px 36px -29px #cccccc, 0px 25px 36px -29px #cccccc; box-shadow: 0px -25px 36px -29px #cccccc, 0px 25px 36px -29px #cccccc; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eff1f4), color-stop(100%, #f7f9fa)); background-image: -webkit-linear-gradient(top, #eff1f4 0%, #f7f9fa 100%); background-image: -moz-linear-gradient(top, #eff1f4 0%, #f7f9fa 100%); background-image: -o-linear-gradient(top, #eff1f4 0%, #f7f9fa 100%); background-image: linear-gradient(top, #eff1f4 0%, #f7f9fa 100%); }
+.check { height: 125px; padding-left: 65px; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-box-shadow: 0px -25px 36px -29px #cccccc, 0px 25px 36px -29px #cccccc; -moz-box-shadow: 0px -25px 36px -29px #cccccc, 0px 25px 36px -29px #cccccc; box-shadow: 0px -25px 36px -29px #cccccc, 0px 25px 36px -29px #cccccc; }
 .check:before, .check:after { content: ""; display: table; }
 .check:after { clear: both; }
 
@@ -151,11 +154,20 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .prize__text { position: relative; padding: 0 70px; font-size: 19px; color: #bc8d03; z-index: 3; }
 
-.prize__clouds, .prize__clouds2, .prize__clouds3 { position: absolute; bottom: 0; left: 0; z-index: 2; }
+.prize__clouds, .prize__clouds2, .prize__clouds3 { position: absolute; bottom: -10px; left: 0; z-index: 2; }
 
-.prize__clouds2 { bottom: -30px; right: 0px; left: auto; }
+.prize__clouds2 { bottom: -49px; right: 0px; left: auto; }
 
-.prize__clouds3 { bottom: 60px; right: 0px; left: auto; }
+.prize__clouds3 { bottom: 8px; right: 13px; left: auto; }
+
+.prize1 .prize__img { min-height: 114px; }
+.prize1 .prize__title { padding-bottom: 31px; }
+
+.prize2 .prize__img { min-height: 127px; }
+
+.prize3 .prize__img { min-height: 135px; }
+.prize3 .prize__title { padding-bottom: 10px; }
+.prize3 .prize__text { padding: 0 62px; }
 
 @font-face { font-family: "Trebuchet-MS"; src: url("../fonts/Trebuchet-MS-Regular_.eot"); src: url("../fonts/Trebuchet-MS-Regular_.eot?#iefix") format("embedded-opentype"), url("../fonts/Trebuchet-MS-Regular_.woff") format("woff"), url("../fonts/Trebuchet-MS-Regular_.ttf") format("truetype"), url("../fonts/Trebuchet-MS-Regular_.svg#Trebuchet-MS-Regular_") format("svg"); font-weight: normal; font-style: normal; }
 
@@ -189,12 +201,12 @@ table { border-spacing: 0; border-collapse: collapse; }
 .sidebar-menu__link.current { color: #cc0000; text-decoration: none; }
 
 a.feedback { position: relative; display: inline-block; padding-left: 62px; font-size: 18px; color: #40688e; text-decoration: none; }
-a.feedback:before { content: ""; position: absolute; top: 5px; left: 0px; background: url('../img/icons-s8eca9ef55a.png') 0 -644px no-repeat; width: 53px; height: 39px; }
+a.feedback:before { content: ""; position: absolute; top: 5px; left: 0px; background: url('../img/icons-sab2538c200.png') 0 -644px no-repeat; width: 53px; height: 39px; }
 a.feedback:hover { text-decoration: underline; color: #40688e; }
 a.feedback:active { color: #003366; }
 
 .postcard { position: relative; padding: 53px 60px; }
-.postcard:after { content: ""; position: absolute; top: 2px; left: -19px; background: url('../img/icons-s8eca9ef55a.png') 0 -126px no-repeat; width: 688px; height: 508px; }
+.postcard:after { content: ""; position: absolute; top: 2px; left: -19px; background: url('../img/icons-sab2538c200.png') 0 -126px no-repeat; width: 688px; height: 508px; }
 
 .postcard__buttons { position: relative; padding: 20px 0 20px 132px; z-index: 2; }
 .postcard__buttons button { margin-right: 60px; }
@@ -260,7 +272,7 @@ a.feedback:active { color: #003366; }
 .datepicker.is-open { display: block; }
 
 .calendar { position: relative; display: inline-block; width: 40px; height: 40px; margin-left: 6px; background: url(../img/btn-small.png) 0 0 no-repeat; cursor: pointer; }
-.calendar:after { content: ""; position: absolute; top: 3px; left: 7px; background: url('../img/icons-s8eca9ef55a.png') 0 -1107px no-repeat; width: 27px; height: 32px; }
+.calendar:after { content: ""; position: absolute; top: 3px; left: 7px; background: url('../img/icons-sab2538c200.png') 0 -1008px no-repeat; width: 27px; height: 32px; }
 .calendar:hover { background: url(../img/btn-small-hover.png) 0 0 no-repeat; }
 .calendar:active { background: url(../img/btn-small-active.png) 0 0 no-repeat; }
 
@@ -287,16 +299,16 @@ a.feedback:active { color: #003366; }
 .ui-datepicker-header { position: relative; height: 32px; }
 
 .ui-datepicker-prev { position: absolute; top: 0px; left: 0px; width: 26px; height: 32px; cursor: pointer; }
-.ui-datepicker-prev .ui-icon { display: inline-block; font: 0/0 a; text-shadow: none; color: transparent; background: url('../img/icons-s8eca9ef55a.png') 0 -1237px no-repeat; width: 10px; height: 12px; }
-.ui-datepicker-prev:hover .ui-icon { background: url('../img/icons-s8eca9ef55a.png') 0 -1295px no-repeat; width: 10px; height: 12px; }
+.ui-datepicker-prev .ui-icon { display: inline-block; font: 0/0 a; text-shadow: none; color: transparent; background: url('../img/icons-sab2538c200.png') 0 -1138px no-repeat; width: 10px; height: 12px; }
+.ui-datepicker-prev:hover .ui-icon { background: url('../img/icons-sab2538c200.png') 0 -1196px no-repeat; width: 10px; height: 12px; }
 
-.ui-datepicker-prev.ui-state-disabled .ui-icon { background: url('../img/icons-s8eca9ef55a.png') 0 -1171px no-repeat; width: 10px; height: 12px; }
+.ui-datepicker-prev.ui-state-disabled .ui-icon { background: url('../img/icons-sab2538c200.png') 0 -1072px no-repeat; width: 10px; height: 12px; }
 
 .ui-datepicker-next { position: absolute; top: 0px; right: 0px; cursor: pointer; width: 26px; height: 32px; text-align: right; }
-.ui-datepicker-next .ui-icon { display: inline-block; font: 0/0 a; text-shadow: none; color: transparent; background: url('../img/icons-s8eca9ef55a.png') 0 -1149px no-repeat; width: 10px; height: 12px; }
-.ui-datepicker-next:hover .ui-icon { background: url('../img/icons-s8eca9ef55a.png') 0 -1215px no-repeat; width: 10px; height: 12px; }
+.ui-datepicker-next .ui-icon { display: inline-block; font: 0/0 a; text-shadow: none; color: transparent; background: url('../img/icons-sab2538c200.png') 0 -1050px no-repeat; width: 10px; height: 12px; }
+.ui-datepicker-next:hover .ui-icon { background: url('../img/icons-sab2538c200.png') 0 -1116px no-repeat; width: 10px; height: 12px; }
 
-.ui-datepicker-next.ui-state-disabled .ui-icon { background: url('../img/icons-s8eca9ef55a.png') 0 -1259px no-repeat; width: 10px; height: 12px; }
+.ui-datepicker-next.ui-state-disabled .ui-icon { background: url('../img/icons-sab2538c200.png') 0 -1160px no-repeat; width: 10px; height: 12px; }
 
 .ui-datepicker-title { padding: 0 26px; text-align: center; line-height: 32px; font-size: 13px; color: #666666; }
 

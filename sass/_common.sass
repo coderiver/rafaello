@@ -136,9 +136,8 @@ table
 	width: 298px
 	margin-top: 60px
 	li
-		display: inline-block
-		max-width: 124px
-		min-width: 82px
+		float: left
+		width: 33%
 		text-align: center
 		vertical-align: top
 		+box
@@ -148,12 +147,12 @@ table
 			color: #bc8d03
 			font: 14px Arial, sans-serif
 			&:hover
-				color: #937109
+				text-decoration: none
 			&:active
 				color: #663300
 				text-decoration: none
 		a.current
-			color: #937109
+			color: #e10000
 			text-decoration: none
 		a.profile-link
 			display: inline-block
@@ -166,7 +165,11 @@ table
 			p
 				font-size: 12px
 .menu_right
-	text-align: right				
+	text-align: right
+	li
+		width: auto
+		max-width: 124px
+		margin-right: 13px			
 .avatar
 	display: inline-block
 	width: 35px
@@ -176,7 +179,7 @@ table
 	+box
 	border: 1px solid #dcdede 						
 .container
-	padding: 10px 25px 0				
+	padding: 25px 25px 0				
 
 // footer
 .l-footer
@@ -207,14 +210,16 @@ table
 		a
 			color: #c39a1f
 			text-decoration: underline
+			&:hover
+				text-decoration: none	
 .footer__socials
 	position: relative
-	top: -9px
+	top: -5px
 	float: left
 	color: #69689c
 	span
 		position: relative
-		top: -13px
+		top: -7px
 	ul
 		display: inline-block
 		li
