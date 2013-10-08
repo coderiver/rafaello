@@ -70,7 +70,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 .menu li a.profile-link p { font-size: 12px; }
 
 .menu_right { text-align: right; }
-.menu_right li { width: auto; max-width: 124px; margin-right: 13px; }
+.menu_right li { float: right; width: auto; max-width: 120px; margin-right: 13px; }
 
 .avatar { display: inline-block; width: 35px; height: 33px; margin-bottom: 5px; overflow: hidden; -moz-box-sizing: border-box; box-sizing: border-box; border: 1px solid #dcdede; }
 
