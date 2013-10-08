@@ -19,4 +19,12 @@ $(document).ready(function() {
 		$(".hint__bill").toggleClass('is-active');
 	});
 
+	$(".faq__content").hide();
+	$(".faq__title").each(function(){
+		$(this).click(function(){
+			$(this).toggleClass('is-active');
+			$(this).parent().find(".faq__content").slideToggle();
+		});
+	});
+
 });

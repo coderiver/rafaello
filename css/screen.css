@@ -306,3 +306,15 @@ a.feedback:active { color: #003366; }
 .ui-datepicker-calendar tr { height: 22px; }
 
 .ui-state-disabled span { color: #ccd1d7; }
+
+.faq-list { margin: 0 0 0 32px; font-family: Calibri, Arial, sans-serif; }
+.faq-list li { margin: 0 0 15px; }
+
+.faq__title { font-size: 28px; line-height: 33px; font-weight: bold; padding: 2px 0 0; }
+.faq__title span { cursor: pointer; font-weight: normal; color: #779ec4; text-decoration: underline; }
+.faq__title span:hover { text-decoration: none; }
+
+.faq__title.is-active span { text-decoration: none; color: #40688e; font-weight: bold; cursor: default; }
+
+.faq__content { overflow: hidden; display: none; color: #40688e; font-size: 20px; line-height: 24px; font-weight: bold; padding: 0 0 0 30px; }
+.faq__content p { padding: 14px 0 0; font-weight: normal; }
