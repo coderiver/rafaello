@@ -231,10 +231,10 @@ a.feedback
 	+clr
 	margin-bottom: 145px		
 .reg-submit
-	width: 561px
+	width: 566px
 	float: right
 	.feedback
-		width: 295px
+		width: 304px
 		color: #e10000
 		font-size: 14px
 		margin-left: 30px
@@ -341,5 +341,46 @@ a.feedback
 	padding: 0 0 0 30px
 	p
 		padding: 14px 0 0
-		font-weight: normal				
+		font-weight: normal
+
+// popup
+.l-popup
+	position: fixed
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	background: rgba(0,0,0,.2)
+	z-index: 998
+.popup
+	position: fixed
+	top: 257px
+	left: 50%
+	width: 670px
+	height: 157px
+	+box
+	padding-top: 36px
+	text-align: center
+	margin-left: -335px
+	+border-radius(10px)
+	background: #fff
+	+box-shadow(0 0 8px rgba(0,0,0,.1))
+	z-index: 999
+.close__popup
+	position: absolute
+	top: 10px
+	right: 10px
+	cursor: pointer
+	i
+		display: block
+		+s(close)
+.popup__title
+	margin-bottom: 13px
+	font: italic 24px Trebuchet-MS-Italic, sans-serif
+	color: #e31515
+.popup__content
+	font-size: 16px
+	color: #666				
+
+	 						
 				 															
