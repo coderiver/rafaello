@@ -294,8 +294,8 @@ a.feedback:active { color: #003366; }
 .reg-submit { width: 566px; float: right; }
 .reg-submit .feedback { width: 304px; color: #e10000; font-size: 14px; margin-left: 30px; }
 .reg-submit .feedback span { position: relative; top: 6px; line-height: 1; border-bottom: 1px dotted; }
-.reg-submit .feedback span:hover { border-bottom: none; }
 .reg-submit .feedback:hover { text-decoration: none; }
+.reg-submit:hover span { border-bottom: none; }
 
 .ui-datepicker-inline { width: 182px; }
 
