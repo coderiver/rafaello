@@ -33,7 +33,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .h1 { text-align: center; font: italic 36px Trebuchet-MS-Italic, Arial, Tahoma, sans-serif; color: #e10000; }
 
-.h2 { font: 26px Calibri, sans-serif; color: #e10000; }
+.h2 { font: 24px Calibri, sans-serif; color: #e10000; }
 
 .btn { width: 166px; height: 40px; -webkit-border-radius: 6px; -moz-border-radius: 6px; -ms-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; background: url(../img/btn.png) 0 0 no-repeat; -webkit-box-shadow: 1px 2px 3px rgba(1, 1, 1, 0.06); -moz-box-shadow: 1px 2px 3px rgba(1, 1, 1, 0.06); box-shadow: 1px 2px 3px rgba(1, 1, 1, 0.06); font: italic 15px Trebuchet-MS-Italic, Arial, Tahoma, sans-serif; color: #e10000; }
 .btn:hover { background: url(../img/btn-hover.png) 0 0 no-repeat; }
@@ -212,7 +212,7 @@ a.feedback:active { color: #003366; }
 .postcard__buttons { position: relative; padding: 20px 0 20px 132px; z-index: 2; }
 .postcard__buttons button { margin-right: 60px; }
 
-.rules { width: 654px; margin-left: 66px; font: 24px Calibri, sans-serif; color: #40688e; }
+.rules { width: 654px; margin-left: 66px; font: 22px Calibri, sans-serif; color: #40688e; }
 .rules p { margin-bottom: 33px; }
 
 .l-about { width: 620px; text-align: center; }
@@ -325,7 +325,7 @@ a.feedback:active { color: #003366; }
 .faq-list { margin: 0 0 0 32px; font-family: Calibri, Arial, sans-serif; }
 .faq-list li { margin: 0 0 15px; }
 
-.faq__title { font-size: 28px; line-height: 33px; font-weight: bold; padding: 2px 0 0; }
+.faq__title { font-size: 24px; line-height: 33px; font-weight: bold; padding: 2px 0 0; }
 .faq__title span { cursor: pointer; font-weight: normal; color: #779ec4; text-decoration: underline; }
 .faq__title span:hover { text-decoration: none; }
 
