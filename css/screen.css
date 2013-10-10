@@ -262,7 +262,8 @@ a.feedback:active { color: #003366; }
 .reg:before, .reg:after { content: ""; display: table; }
 .reg:after { clear: both; }
 
-.reg_mod { margin-bottom: 70px; }
+.reg_mod { margin-bottom: 21px; }
+.reg_mod .notes { clear: both; padding-top: 4px; width: 400px; }
 
 .reg__left { float: left; width: 187px; -moz-box-sizing: border-box; box-sizing: border-box; padding-right: 10px; font-size: 16px; color: #666666; }
 
@@ -287,15 +288,13 @@ a.feedback:active { color: #003366; }
 
 .hint__bill.is-active { display: block; }
 
-.l-reg-submit { margin-bottom: 145px; }
+.l-reg-submit { margin-bottom: 130px; }
 .l-reg-submit:before, .l-reg-submit:after { content: ""; display: table; }
 .l-reg-submit:after { clear: both; }
 
 .reg-submit { width: 566px; float: right; }
-.reg-submit .feedback { width: 304px; color: #e10000; font-size: 14px; margin-left: 30px; }
-.reg-submit .feedback span { position: relative; top: 6px; line-height: 1; border-bottom: 1px dotted; }
-.reg-submit .feedback:hover { text-decoration: none; }
-.reg-submit:hover span { border-bottom: none; }
+
+a.feedback_reg { height: 46px; line-height: 46px; }
 
 .ui-datepicker-inline { width: 182px; }
 
