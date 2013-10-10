@@ -349,7 +349,7 @@ a.feedback_reg
 	top: 257px
 	left: 50%
 	width: 670px
-	height: 157px
+	min-height: 157px
 	+box
 	padding-top: 36px
 	text-align: center
@@ -372,7 +372,19 @@ a.feedback_reg
 	color: #e31515
 .popup__content
 	font-size: 16px
-	color: #666				
+	color: #666
+.login-list
+	+clr
+	width: 604px
+	margin: 21px auto 40px
+	li
+		float: left
+		width: 142px
+		margin-left: 12px
+		&:first-child
+			margin-left: 0 
+		button
+			width: 142px					
 
 	 						
 				 															
