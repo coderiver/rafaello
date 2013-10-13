@@ -43,10 +43,9 @@ table { border-spacing: 0; border-collapse: collapse; }
 .btn_inactive { color: #f3a2a4; background: white; background-image: linear-gradient(bottom, #f5f5f5 0%, #f5f5f5 19.04%, #ffffff 59.4%, #ffffff 100%); border-color: #dabe7d; }
 
 .btn_social { width: 142px; background: url(../img/btn-social.png) 0 0 no-repeat; }
-.btn_social:hover { background: url(../img/btn-social-hover.png) 0 0 no-repeat; }
-.btn_social:active { background: url(../img/btn-social-active.png) 0 0 no-repeat; }
 
 .input { width: 200px; height: 40px; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0 12px; border: 1px solid #d2d2d2; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; background: white; font: italic 19px Trebuchet-MS-Italic, Arial, Tahoma, sans-serif; color: #666666; }
+.input.input_error, .input.is-error { box-shadow: inset 0 0 7px rgba(227, 37, 37, 0.75); }
 
 .input_short { width: 149px; }
 
@@ -265,14 +264,18 @@ a.feedback:active { color: #003366; }
 
 .reg-steps { width: 587px; margin: 15px auto 0; }
 
-.reg { margin-bottom: 10px; }
+.reg { margin-bottom: 10px; position: relative; }
 .reg:before, .reg:after { content: ""; display: table; }
 .reg:after { clear: both; }
+.reg .reg__error { position: absolute; left: 410px; top: 10px; color: #e10000; font-size: 12px; font-style: italic; }
+.reg .reg__error1 { top: -20px; right: 0; left: auto; }
 
 .reg_mod { margin-bottom: 21px; }
 .reg_mod .notes { clear: both; padding-top: 4px; width: 400px; }
 
-.reg__left { float: left; width: 187px; -moz-box-sizing: border-box; box-sizing: border-box; padding-right: 10px; font-size: 16px; color: #666666; }
+.reg_error .reg__right { border: 1px solid #f2b4b6; margin-right: -3px; border-radius: 10px; box-shadow: inset 0 0 10px #f2b4b6; padding-top: 5px; position: relative; top: -5px; }
+
+.reg__left { float: left; width: 187px; -moz-box-sizing: border-box; box-sizing: border-box; padding-right: 10px; font-size: 16px; color: #666666; padding-top: 5px; }
 
 .reg__right { position: relative; float: left; width: 400px; }
 .reg__right input { vertical-align: top; }
