@@ -1,0 +1,109 @@
+.slider
+	position: relative
+	width: 805px 
+	margin: 0 auto
+	.slider__slides
+		width: 805px 
+		height: 383px 
+		background: url(../img/sliderbg.png) no-repeat 0 0
+		margin: 0 auto
+		z-index: 20 
+		position: relative
+	.slider__prev,.slider__next
+		position: absolute
+		top: 50% 
+		margin-top: -10px 
+		z-index: 10
+		cursor: pointer
+	.slider__prev
+		+s(prev)
+		left: -140px 
+	.slider__next
+		+s(next)
+		right: -124px 
+	.slider__socials
+		position: absolute
+		right: 80px 
+		bottom: 20px 
+		z-index: 21
+		text-align: center
+		top: auto 
+		span
+			display: block
+			color: #838383
+			text-align: center 
+	.slider__slide
+		padding:  35px 300px 0 50px
+		.h2
+			font-size: 40px 
+			font-style: italic
+			color: #e10000
+			font-weight: normal 
+		dl
+			margin-top: 15px 
+		dt
+			font-size: 15px 
+			color: #928d7a
+			margin-bottom: 10px  
+		dd
+			color: #737373
+			font-style: italic  
+			font-size: 17px 
+			line-height: 40px 
+			background: url(../img/lh.png) repeat 0 0 
+		
+
+.days
+	background:  url(../img/dotted.png) no-repeat 50% 0
+	height: 60px  
+	position: relative
+	margin-top: 130px 
+	margin-bottom: 100px 
+	.days__in
+		height: 60px 
+		width: 1000px 
+		margin: 0 auto 
+		position: relative
+	.days__item
+		text-align: center
+		cursor: pointer
+		position: absolute
+		width: 176px 
+		i
+			display: inline-block
+			+s(flower)
+			margin-bottom: 5px
+		span
+			text-decoration: underline
+			color: #2e2e2e 
+			font-size: 15px 
+			display: block
+		&.is-active
+			margin-bottom: -20px 
+			i
+				+s(dayactive)
+				margin-bottom: -10px 
+			span
+				font-size: 25px 
+				color: #e10000 
+				text-decoration: none
+	.days__1
+		bottom: -30px 
+		left: 0px
+	.days__2
+		bottom: -20px 
+		left: 150px
+	.days__3
+		bottom: 0px 
+		left: 300px 
+	.days__4
+		bottom: 20px 
+		right: 390px 
+	.days__5
+		bottom: 20px 
+		right: 260px 
+	.days__6
+		bottom: 10px 
+		right: 120px  
+	.days__7
+		right: 0 
