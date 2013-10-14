@@ -418,6 +418,9 @@ a.feedback_reg { height: 46px; line-height: 46px; }
 .l-check-list.is-inactive { color: #999999; }
 .l-check-list.is-inactive .check-list__title { color: #999999; }
 
+.profile__alert { width: 500px; text-align: center; font: italic 16px Trebuchet-MS-Italic, sans-serif; color: #555454; }
+.profile__alert p { margin-bottom: 15px; }
+
 .slider { position: relative; width: 805px; margin: 0 auto; }
 .slider .slider__slides { width: 805px; height: 383px; background: url(../img/sliderbg.png) no-repeat 0 0; margin: 0 auto; z-index: 20; position: relative; }
 .slider .slider__prev, .slider .slider__next { position: absolute; top: 50%; margin-top: -10px; z-index: 10; cursor: pointer; }
