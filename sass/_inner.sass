@@ -213,6 +213,11 @@ a.feedback
 	right: 0px
 	width: 182px
 	z-index: 99
+	padding: 5px 10px
+	border-radius: 4px
+	box-shadow: 0 0 10px rgba(0,0,0,.3)
+	background: #FFF 
+	margin-right: -20px 
 .datepicker.is-open
 	display: block					
 .calendar
@@ -279,10 +284,12 @@ a.feedback_reg
 	.ui-icon
 		display: inline-block
 		+ht
-		+s(prev)
+		+s(prev-hover)
+		opacity: .5 
 	&:hover
 		.ui-icon
 			+s(prev-hover)
+			opacity: 1 
 .ui-datepicker-prev.ui-state-disabled
 	.ui-icon
 		+s(prev-inactive)			
@@ -297,10 +304,12 @@ a.feedback_reg
 	.ui-icon
 		display: inline-block
 		+ht
-		+s(next)
+		+s(next-hover)
+		opacity: .5 
 	&:hover
 		.ui-icon
 			+s(next-hover)
+			opacity: 1 
 .ui-datepicker-next.ui-state-disabled
 	.ui-icon
 		+s(next-inactive)				

@@ -295,7 +295,7 @@ a.feedback:active { color: #003366; }
 .reg__right input { vertical-align: top; }
 .reg__right .pack-list { margin-top: 0; }
 
-.datepicker { display: none; position: absolute; top: 0px; right: 0px; width: 182px; z-index: 99; }
+.datepicker { display: none; position: absolute; top: 0px; right: 0px; width: 182px; z-index: 99; padding: 5px 10px; border-radius: 4px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); background: white; margin-right: -20px; }
 
 .datepicker.is-open { display: block; }
 
@@ -325,14 +325,14 @@ a.feedback_reg { height: 46px; line-height: 46px; }
 .ui-datepicker-header { position: relative; height: 32px; }
 
 .ui-datepicker-prev { position: absolute; top: 0px; left: 0px; width: 26px; height: 32px; cursor: pointer; }
-.ui-datepicker-prev .ui-icon { display: inline-block; font: 0/0 a; text-shadow: none; color: transparent; background: url('../img/icons-s48e4c2d03b.png') 0 -1350px no-repeat; width: 157px; height: 50px; }
-.ui-datepicker-prev:hover .ui-icon { background: url('../img/icons-s48e4c2d03b.png') 0 -2025px no-repeat; width: 10px; height: 12px; }
+.ui-datepicker-prev .ui-icon { display: inline-block; font: 0/0 a; text-shadow: none; color: transparent; background: url('../img/icons-s48e4c2d03b.png') 0 -2025px no-repeat; width: 10px; height: 12px; opacity: 0.5; }
+.ui-datepicker-prev:hover .ui-icon { background: url('../img/icons-s48e4c2d03b.png') 0 -2025px no-repeat; width: 10px; height: 12px; opacity: 1; }
 
 .ui-datepicker-prev.ui-state-disabled .ui-icon { background: url('../img/icons-s48e4c2d03b.png') 0 -1882px no-repeat; width: 10px; height: 12px; }
 
 .ui-datepicker-next { position: absolute; top: 0px; right: 0px; cursor: pointer; width: 26px; height: 32px; text-align: right; }
-.ui-datepicker-next .ui-icon { display: inline-block; font: 0/0 a; text-shadow: none; color: transparent; background: url('../img/icons-s48e4c2d03b.png') 0 -1290px no-repeat; width: 157px; height: 50px; }
-.ui-datepicker-next:hover .ui-icon { background: url('../img/icons-s48e4c2d03b.png') 0 -1946px no-repeat; width: 10px; height: 12px; }
+.ui-datepicker-next .ui-icon { display: inline-block; font: 0/0 a; text-shadow: none; color: transparent; background: url('../img/icons-s48e4c2d03b.png') 0 -1946px no-repeat; width: 10px; height: 12px; opacity: 0.5; }
+.ui-datepicker-next:hover .ui-icon { background: url('../img/icons-s48e4c2d03b.png') 0 -1946px no-repeat; width: 10px; height: 12px; opacity: 1; }
 
 .ui-datepicker-next.ui-state-disabled .ui-icon { background: url('../img/icons-s48e4c2d03b.png') 0 -1989px no-repeat; width: 10px; height: 12px; }
 
