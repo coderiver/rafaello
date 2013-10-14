@@ -468,7 +468,8 @@ a.feedback_reg { height: 46px; line-height: 46px; }
 .days { background: url(../img/dotted.png) no-repeat 50% 0; height: 60px; position: relative; margin-top: 130px; margin-bottom: 100px; }
 .days .days__in { height: 60px; width: 1000px; margin: 0 auto; position: relative; }
 .days .days__item { text-align: center; cursor: pointer; position: absolute; width: 176px; }
-.days .days__item i { display: inline-block; background: url('../img/icons-s48e4c2d03b.png') 0 -1410px no-repeat; width: 45px; height: 39px; margin-bottom: 5px; }
+.days .days__item i { display: inline-block; background: url('../img/icons-s48e4c2d03b.png') 0 -1410px no-repeat; width: 45px; height: 39px; margin-bottom: 5px; -webkit-transition: margin 300ms cubic-bezier(0.250, 0.460, 0.450, 0.940); -moz-transition: margin 300ms cubic-bezier(0.250, 0.460, 0.450, 0.940); -o-transition: margin 300ms cubic-bezier(0.250, 0.460, 0.450, 0.940); transition: margin 300ms cubic-bezier(0.250, 0.460, 0.450, 0.940); }
+.days .days__item:hover i { margin-bottom: 15px; }
 .days .days__item span { text-decoration: underline; color: #2e2e2e; font-size: 15px; display: block; }
 .days .days__item.is-active, .days .days__item.cycle-pager-active { margin-bottom: -20px; }
 .days .days__item.is-active i, .days .days__item.cycle-pager-active i { background: url('../img/icons-s48e4c2d03b.png') 0 -595px no-repeat; width: 176px; height: 167px; margin-bottom: -10px; }
@@ -480,3 +481,4 @@ a.feedback_reg { height: 46px; line-height: 46px; }
 .days .days__5 { bottom: 20px; right: 260px; }
 .days .days__6 { bottom: 10px; right: 120px; }
 .days .days__7 { right: 0; }
+.days .days__7:hover i { margin-top: -10px; }

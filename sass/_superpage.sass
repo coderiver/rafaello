@@ -73,11 +73,16 @@
 			display: inline-block
 			+s(flower)
 			margin-bottom: 5px
+			+transition(margin 300ms ceaser($easeOutQuad))
+		&:hover
+			i
+				margin-bottom: 15px
+			
 		span
 			text-decoration: underline
 			color: #2e2e2e 
 			font-size: 15px 
-			display: block
+			display: block	
 		&.is-active, &.cycle-pager-active
 			margin-bottom: -20px 
 			i
@@ -86,7 +91,7 @@
 			span
 				font-size: 25px 
 				color: #e10000 
-				text-decoration: none
+				text-decoration: none		
 	.days__1
 		bottom: -30px 
 		left: 0px
@@ -106,4 +111,7 @@
 		bottom: 10px 
 		right: 120px  
 	.days__7
-		right: 0 
+		right: 0
+		&:hover
+			i
+				margin-top: -10px 
