@@ -94,7 +94,7 @@ table
 	width: 200px
 	height: 40px
 	+box
-	padding: 0 12px 
+	padding: 0 8px 
 	border: 1px solid #d2d2d2
 	@include border-radius(5px)
 	background: #fff
@@ -102,8 +102,39 @@ table
 	color: #666
 	&.input_error, &.is-error
 		box-shadow: inset 0 0 7px rgba(227,37,37,.75)
+div.input
+	font: italic 19px/36px Trebuchet-MS-Italic, Arial, Tahoma, sans-serif		
 .input_short
 	width: 149px
+.input_shortest
+	width: 70px	
+.input_long
+	width: 420px
+.l-select
+	position: relative	
+.select
+	position: relative
+	cursor: pointer
+	&:after
+		content: ""
+		position: absolute
+		top: 15px
+		right: 12px
+		+s(select)
+.select__drop
+	display: none
+	position: absolute
+	top: 40px
+	left: 0px
+	width: 100%	
+	font: italic 19px Trebuchet-MS-Italic, Arial, Tahoma, sans-serif
+	color: #666
+	background: #fff
+	border: 1px solid #d2d2d2
+	+border-radius(5px)
+	li
+		cursor: pointer
+		margin-bottom: 5px		
 .radio
 	display: inline-block
 	position: relative
