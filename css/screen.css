@@ -502,7 +502,7 @@ a.feedback_reg { height: 46px; line-height: 46px; }
 .slider .slider__next { background: url('../img/icons-s8769235e14.png') 0 -1290px no-repeat; width: 157px; height: 50px; right: -124px; }
 .slider .slider__socials { position: absolute; right: 80px; bottom: 20px; z-index: 21; text-align: center; top: auto; }
 .slider .slider__socials span { display: block; color: #838383; text-align: center; }
-.slider .slider__slide { padding: 35px 300px 0 50px; }
+.slider .slider__slide { padding: 35px 300px 0 50px; width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 .slider .slider__slide .h2 { font-size: 40px; font-style: italic; color: #e10000; font-weight: normal; }
 .slider .slider__slide dl { margin-top: 15px; }
 .slider .slider__slide dt { font-size: 15px; color: #928d7a; margin-bottom: 10px; }

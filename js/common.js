@@ -26,5 +26,24 @@ $(document).ready(function() {
 			$(this).parent().find(".faq__content").slideToggle();
 		});
 	});
+	cy = $('.cycle-slideshow');
+
+	$('.slider').on('cycle-after', function(e) {
+		
+	    var index = cy.data("cycle.opts").currSlide;
+	    $('.days__item').removeClass('is-active is-active1 is-active2 is-active3');
+	     var div = Math.floor(index/3);
+		 var rem = index % 3 + 1;
+		 div = div + 1;
+	    $(".days").find("[data-slide='" + div + "']").addClass('is-active is-active'+rem);
+	   // alert(index);
+	    //transitionNext(index);
+	});
+	$('.days__item').click(function (e) {
+		ind = $(this).data('slide');
+		ind = ind*3 - 3;
+		cy.cycle('goto', ind);
+		return false;
+	});
 
 });
