@@ -9,18 +9,29 @@
 		margin: 0 auto
 		z-index: 20 
 		position: relative
+		+transition(all 300ms ceaser($easeInOutBack))
+		&:hover
+			+transition(all 300ms ceaser($easeInOutBack))
+			+transform(rotate(4deg))
 	.slider__prev,.slider__next
 		position: absolute
 		top: 50% 
 		margin-top: -10px 
 		z-index: 10
 		cursor: pointer
+		+transition(all 300ms ceaser($easeInOutBack))
+		&:hover
+			+transition(all 300ms ceaser($easeInOutBack))
 	.slider__prev
 		+s(prev)
 		left: -140px 
+		&:hover
+			left: -145px 
 	.slider__next
 		+s(next)
 		right: -124px 
+		&:hover
+			right: -130px 
 	.slider__socials
 		position: absolute
 		right: 80px 
