@@ -480,5 +480,5 @@ a.feedback_reg { height: 46px; line-height: 46px; }
 .days .days__4 { bottom: 20px; right: 390px; }
 .days .days__5 { bottom: 20px; right: 260px; }
 .days .days__6 { bottom: 10px; right: 120px; }
-.days .days__7 { right: 0; }
+.days .days__7 { right: 0; bottom: -10px; }
 .days .days__7:hover i { margin-top: -10px; }
