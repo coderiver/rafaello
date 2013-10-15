@@ -1,0 +1,192 @@
+<!doctype html>
+<!--[if IE 8]><html lang="ru-RU" class="ie8"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="ru-RU"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>registration</title>
+	<link rel="stylesheet" media="screen" href="css/screen.css" >
+	<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src="js/common.js"></script>
+</head>
+<body>
+<!-- BEGIN .wrap -->
+<section class="l-wrapper">
+	<div class="wrapper">
+		<header class="header">
+			<ul class="menu">
+				<li><a href="#">Головна</a></li>
+				<li><a href="#">Про акцію</a></li>
+				<li><a href="#">Слушні моменти</a></li>
+			</ul>
+			<h1 class="logo"><a href="#"></a></h1>
+			<ul class="menu menu_right">
+				<li><a href="#">Увійти</a></li>
+				<li><a href="#">Переможці</a></li>
+				<li><a href="#" class="current">зареєструвати чек</a></li>
+			</ul>
+		</header>
+		<div class="container">
+			<div class="top">
+				<h1 class="h1">Реєстрація чеку</h1>
+			</div>
+			<ul class="reg-steps">
+				<li class="reg">
+					<div class="reg__left">
+						Вкажіть дату покупки <span class="note-text">*</span>
+					</div>
+					<div class="reg__right">
+						<input class="input input_short js-datepicker js-date" type="text">
+						<span class="calendar js-datepicker"></span>
+						<div class="datepicker"></div>
+					</div>
+				</li>
+				<li class="reg reg_mod">
+					<div class="reg__left">
+						Вкажіть номер чеку
+					</div>
+					<div class="reg__right">
+						<input class="input" type="text">
+						<p class="hint">
+							<span>Де дивитися номер чеку?</span>
+							<div class="hint__bill">
+								<img src="img/bill3.png" alt="">
+							</div>
+						</p>
+					</div>
+				</li>
+				<li class="reg">
+					<div class="reg__left">
+						Виберіть упаковку, яку ви придбали
+					</div>
+					<div class="reg__right">
+						<ul class="pack-list">
+								<li class="pack">
+									<label>
+										<img src="img/pack1.png" alt="">
+										<span class="pack__title">RAFFAELLO ®, 150 г</span>
+										<span class="radio">
+											<input type="radio" name="box">
+											<span></span>
+										</span>
+									</label>
+								</li>
+								<li class="pack">
+									<label>
+										<img src="img/pack2.png" alt="">
+										<span class="pack__title">RAFFAELLO ® «Скринька», 240 г</span>
+										<span class="radio">
+											<input type="radio" name="box">
+											<span></span>
+										</span>
+									</label>	
+								</li>
+								<li class="pack">
+									<label>
+										<img src="img/pack3.png" alt="">
+										<span class="pack__title">RAFFAELLO ®, 300 г</span>
+										<span class="radio">
+											<input type="radio" name="box">
+											<span></span>
+										</span>
+									</label>
+								</li>
+								<li class="pack">
+									<label>
+										<img src="img/pack4.png" alt="">
+										<span class="pack__title">RAFFAELLO ® «La Torta», 100 г</span>
+										<span class="radio">
+											<input type="radio" name="box">
+											<span></span>
+										</span>
+									</label>
+								</li>
+								<li class="pack">
+									<label>
+										<img src="img/pack5.png" alt="">
+										<span class="pack__title">RAFFAELLO ® «La Torta», 200 г</span>
+										<span class="radio">
+											<input type="radio" name="box">
+											<span></span>
+										</span>
+									</label>
+								</li>
+								<li class="pack">
+									<label>
+										<img src="img/pack6.png" alt="">
+										<span class="pack__title">RAFFAELLO ® «La Torta», 200 г</span>
+										<span class="radio">
+											<input type="radio" name="box">
+											<span></span>
+										</span>
+									</label>
+								</li>
+							</ul>
+					</div>
+				</li>
+			</ul>
+			<div class="l-reg-submit">
+				<div class="reg-submit">
+					<button class="btn">Відправити</button>
+					<a href="#" class="feedback"><span>Напишіть нам, будь ласка, якщо у вас виникли</span><br><span>труднощі з реєстрацією чека</span></a>
+				</div>
+			</div>
+			<div class="notes"><span class="note-text">*</span> Ви можете зареєструвати чек, за яким була здійснена покупка Raffaello на території України в період з 14.10.2013 по 08.12.2013 включно</div>
+			<div class="notes"><span class="note-text">!</span> Зберігайте чек до проведення розіграшу, його необхідно буде пред'явити для отримання призів</div>
+			<div class="notes"><span class="note-text">!!</span> Будьте уважні при вводі номеру чеку, ми його будемо ретельно перевіряти</div>
+		</div>
+	</div>
+	<div class="push"></div>
+</section>
+<!-- END .wrap -->
+<!-- BEGIN .footer -->
+<footer class="l-footer">
+	<div class="footer-top"></div>
+	<div class="footer">
+		<div class="copyrights">© 2013 "Rafaello"</div>
+		<ul class="footer__links">
+			<li><a href="#">Загальна інформація Ferrero</a></li>
+			<li><a href="#">Положення про захист персональних данних</a></li>
+		</ul>
+		<div class="footer__socials">
+			<span>Ми в соціальних мережах. Приєднуйтесь!</span>
+			<ul>
+				<li><a class="vk" href="#"></a></li>
+				<li><a class="f" href="#"></a></li>
+				<li><a class="od" href="#"></a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<!-- END .footer -->
+<!-- BEGIN popup -->
+<div class="l-popup"></div>
+<div class="popup">
+	<span class="close__popup"><i></i></span>
+	<div class="popup__content">
+		<ul class="l-user-new">
+			<li class="user-new user-new_first">
+				<p>1. Залиште свій еmail для зв’язку</p>
+				<input type="text" class="input input_reg">
+				<button class="btn disabled btn_next">Далі</button>
+				<div class="form__error">
+					<span>Ви невірно вказали еmail.</span>
+					<br>
+					<span>Перевірте, будь-ласка. </span>
+					<br>
+					<span>Правильний формат: example@email.com </span>
+				</div>
+			</li>
+			<li class="user-new shadow">
+				<p>2. Підпишіться на новини та оновлення від Raffaello</p>
+			</li>
+			<li class="user-new">
+				<p>3. Поділіться з друзями новиною про участь у акції</p>
+			</li>
+		</ul>	
+	</div>
+</div>
+<!-- END popup -->
+</body>
+</html>
